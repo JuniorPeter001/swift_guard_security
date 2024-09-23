@@ -1338,7 +1338,7 @@ button#search-button {
     height:110px;
 }
 .feature-down {
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 
@@ -1552,6 +1552,9 @@ button#search-button {
     body {
         overflow-x: hidden;
     }
+    .feature-down {
+        padding-top: 90px;
+    }
     #fullname {
         font-size: 16px;
     }
@@ -1567,7 +1570,7 @@ button#search-button {
     .nav {
         position: absolute;
         right: -100%;
-        height: 45vh;
+        height: 30vh;
         top: 9vh;
         padding-top: 20px;
         background-color: black;
@@ -2116,8 +2119,9 @@ button#search-button {
         
     }
     #spinner {
-        justify-self: ;
-        margin: 0;
+        z-index: 100;
+        text-align: center;
+        margin-left: -20px;
     }
     header {
         height: 70px;
@@ -2126,7 +2130,7 @@ button#search-button {
         height: 60px;
     }
     .nav {
-        height: 50vh;
+        height: 35vh;
         top: 8vh;
         padding-top: 20px;
     }
@@ -2390,6 +2394,9 @@ button#search-button {
         border-width: 2px 2px 0 0;
         transform: rotate(135deg);
         transition: 0.4s ease-in-out;
+    }
+    .feature-down {
+        padding-top: 70px;
     }
 
 }
